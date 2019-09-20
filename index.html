@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Total Calculator</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Total Calculator</h1>
+
+        <label for="total-box">Total: </label>
+        <input id="total-box" type="number">
+        <br>
+        <label for="tip-rate">Rate: </label>
+        <input id="tip-rate" type="number">
+        <br>
+        <label>Tip: $<span id="tip-amount">0</span></label>
+        <br>                   
+        <label>Tax: $<span id="tax">0</span></label>
+        <br>
+        <label>Grand Total: $<span id="grand-total">0</span></label>
+        <br>
+        <button id="calculate-button">Calculate</button>
+
+        <script src="calculator.js"></script>
+    </body>
+</html>
